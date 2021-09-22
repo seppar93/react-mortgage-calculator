@@ -1,11 +1,15 @@
+/** @format */
 
-import './App.css';
+import "./App.css";
+
+import { AppContainer } from "./StyledComponents";
+import FormComponent from "./components/FormComponent";
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <AppContainer>
+      <FormComponent />
+    </AppContainer>
   );
 }
 
